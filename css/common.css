@@ -1,0 +1,321 @@
+body{
+    font-size: 12px !important;
+    font-family: "Microsoft YaHei",sans-serif;
+    color: #888 !important;
+    text-align: center;
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #e92322;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'service_fonts';
+    src:
+            url('../fonts/MiFie-Web-Font.svg') format('svg'),
+            url('../fonts/MiFie-Web-Font.ttf') format('truetype'),
+            url('../fonts/MiFie-Web-Font.woff') format('woff'),
+            url('../fonts/MiFie-Web-Font.eot') format('embedded-opentype');
+}
+
+.service-icon{
+    font-family: 'service_fonts';
+}
+
+
+ /*导航start -----*/
+    .navbar-right{
+        margin-left: -15px;
+    }
+
+    ul.navbar-nav>li>a{
+        padding: 23px 20px;
+        height: 106px;
+        line-height: 106px;
+        border-top: 5px solid #fff;
+        font-size: 12px !important;
+        color: #5d5d5d;
+
+    }
+    ul.navbar-nav>li:hover{
+        background-color: #9d426b;
+    }
+    .collapse ul.navbar-nav>li:hover a{
+        color: white;
+    }
+
+    .navbar-brand {
+        width: 167px;
+        height: 106px !important;
+        background: url("../images/logo.png") no-repeat 0 20px;
+    }
+
+    /*轮播图 start*/
+    .slide-container {
+        margin: 0 auto;
+        background: url("../images/pattern.jpg") left top repeat;
+        -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    }
+    .carousel-inner .item .pc_img{
+        width: 100%;
+        height: 348px;
+        display: block;
+        background-size: cover;
+        background-position: center;
+    }
+    /*轮播图 end*/
+
+    /*present start*/
+    .presentation-container{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .presentation-container h1{
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        color: #5d5d5d;
+        font-weight: bold;
+
+    }
+    .presentation-container .violet{
+        color: #9d426b;
+    }
+    .presentation-container p {
+        margin: 0 0 10px;
+    }
+    /*present end*/
+    .service{
+        margin-top: 40px;
+        padding: 15px 15px 20px 15px;
+        background: #f8f8f8;
+        border-bottom: 2px solid #9d426b;
+        text-align: center;
+    }
+    .service:hover{
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.05), 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    }
+    .service .service-icon {
+        font-size: 50px;
+        line-height: 50px;
+        color: #5d5d5d;
+    }
+    .service .service-icon i{
+        vertical-align: middle;
+    }
+    .service h3 {
+        margin-top: 13px;
+        font-family: 'Droid Sans', sans-serif;
+        font-size: 14px;
+        color: #5d5d5d;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    }
+    .service p {
+        padding-bottom: 7px;
+        line-height: 24px;
+    }
+    .service .read{
+        display: inline-block;
+        padding: 5px 22px;
+        background: #9d426b;
+        color: #fff;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+
+    /*work-container  start*/
+
+    .work-container {
+        margin-top: 50px;
+    }
+
+    .work-title{
+        background: url("../images/line.png") left center repeat-x;
+    }
+
+    .work-container .work-title h2 {
+        width: 220px;
+        margin: 0 auto;
+        background: #fff;
+        font-family: 'Lobster', cursive;
+        font-size: 24px;
+        color: #5d5d5d;
+        font-weight: bold;
+    }
+
+    .work-container .work {
+        margin-top: 40px;
+        padding-bottom: 20px;
+        background: #f8f8f8;
+        border-bottom: 2px solid #9d426b;
+    }
+
+    .work:hover img{
+        opacity: 0.7;
+        -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+    }
+    .work:hover{
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,.05), 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
+        -o-transition: all .5s; -moz-transition: all .5s; -webkit-transition: all .5s; -ms-transition: all .5s; transition: all .5s;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    .work h3{
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Droid Sans', sans-serif;
+        font-size: 14px;
+        color: #5d5d5d;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    }
+    .work-bottom .work-pic{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background: #9d426b;
+        padding-top: 6px;
+        color: white;
+        font-size: 20px;
+        line-height: 20px;
+        border-radius: 19px;
+    }
+    .work-bottom .fa-search {
+
+    }
+
+    /*work-container  end*/
+
+
+    /*testimonials  start*/
+
+    .testimonials-container{
+        margin-top: 50px;
+        padding-bottom: 70px;
+    }
+    .testimonials-title {
+        background: url("../images/line.png") left center repeat-x;
+    }
+    .testimonials-title h2 {
+        width: 180px;
+        margin: 0 auto;
+        background-color: #fff;
+        font-family: 'Lobster', cursive;
+        font-size: 24px;
+        color: #5d5d5d;
+        font-weight: bold;
+
+    }
+    .testimonials-list{
+        margin-top: 30px;
+        text-align: left;
+    }
+    .testimonials-list .testimonials-image{
+        float: left;
+        width: 10%;
+        margin-top: 10px;
+    }
+
+    .testimonials-list .testimonials-text{
+        float: left;
+        width: 90%;
+        font-size: 14px;
+        line-height: 30px;
+        font-style: italic;
+    }
+    .testimonials-text a{
+        color: #9d426b;
+        text-decoration: none;
+    }
+
+    .testimonials-list .tab-pane{
+        overflow: hidden;
+    }
+    .testimonials-list .nav-tabs {
+        border: 0;
+        text-align: right;
+        float: right;
+    }
+    .testimonials-list .nav-tabs li {
+        display: inline-block;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .testimonials-list .nav-tabs li a {
+        width: 12px;
+        height: 12px;
+        padding: 0;
+        background: #eaeaea;
+        border: 0;
+        border-radius: 0;
+    }
+    .testimonials-list .nav-tabs li a:hover{
+        border: 0;
+        background: #ddd;
+    }
+    .testimonials-list .nav-tabs li.active a{
+        background: #9d426b !important;
+    }
+    /*testimonials  end*/
+
+    /*footer  start*/
+    footer{
+        margin: 0 auto;
+        padding-bottom: 10px;
+        background: url("../images/pattern.jpg") left top repeat;
+    }
+    footer .footer-box {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .footer-box h4 {
+        margin-top: 20px;
+        /*font-family: 'Droid Sans', sans-serif;*/
+        font-size: 14px;
+        color: #5d5d5d;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 rgba(255,255,255,.7);
+        line-height: 20px;
+    }
+
+    .footer-box-text p{
+        line-height: 24px;
+    }
+    .footer-box-text p a{
+        color: #9d426b;
+    }
+    .footer-box-text-subscribe form {
+        padding-bottom: 10px;
+    }
+    .form-group {
+        margin-bottom: 15px !important;
+    }
+    .form-group input {
+        width: 95%;
+        height: 26px;
+    }
+    button.btn {
+        height: 30px;
+        margin: 0;
+        padding: 0 20px;
+        background: #9d426b;
+        border: 0;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 30px;
+        border-radius: 0;
+    }
+    /*footer  end*/
